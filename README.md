@@ -21,7 +21,7 @@ As a climber, I wanted a simple way to track sessions and understand progress wi
 
 
 ## Project Structure
-
+```
 /
 ├── index.html
 ├── styles.css
@@ -30,7 +30,7 @@ As a climber, I wanted a simple way to track sessions and understand progress wi
 │   ├── render.js    # Handles DOM updates and UI rendering
 │   ├── handlers.js  # User interactions and event listeners
 │   └── utils.js     # Helper functions (dates, grades, calculations)
-
+```
 ## What I learned
 
 
