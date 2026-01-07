@@ -23,16 +23,13 @@ As a climber, I wanted a simple way to track sessions and understand progress wi
 ## Project Structure
 
 /
-|
-|--index.html
-|--styles.css
-|--js/
-|  |-state.js # Manages session data and persistence
-|  |-render.js # Handles DOM updates and UI rendering
-|  |-handlers.js # User interactions and event listeners
-|  |-utils.js # Helper functions (dates, grades, calucations)
-|
-
+├── index.html
+├── styles.css
+├── js/
+│   ├── state.js      # Manages session data and persistence
+│   ├── render.js    # Handles DOM updates and UI rendering
+│   ├── handlers.js  # User interactions and event listeners
+│   └── utils.js     # Helper functions (dates, grades, calculations)
 
 ## WHat I learned
 
