@@ -1,0 +1,36 @@
+/* root variables */
+:root{
+    --main-background: #A1EDDB;
+
+    --main-text: #000000;
+    --white: #ffffff;
+    --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* default settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body settings */
+body {
+    background-color: var(--main-background);
+    font-family: var(--font);
+    color: var(--main-text);
+    display:flex;
+}
+
+/* heading 1 orientation */
+h1{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+h3{
+    position: relative;
+    top: 80px;
+    right: 100px;
+}
