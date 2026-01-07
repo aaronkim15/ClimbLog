@@ -7,7 +7,7 @@ As a climber, I wanted a simple way to track sessions and understand progress wi
 ## Features
 - Log climbing session with grade, style, attempts, and result
 - View session history in a clean dashboard layout
-- Filter sessions by date, discipline, and result
+- Filter sessions by date, climbing style, and result
 - See summary statistics such as send rate and highest grade
 - Persistent client-side storage using localStorage
 
