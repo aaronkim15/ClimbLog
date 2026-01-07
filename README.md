@@ -31,7 +31,7 @@ As a climber, I wanted a simple way to track sessions and understand progress wi
 │   ├── handlers.js  # User interactions and event listeners
 │   └── utils.js     # Helper functions (dates, grades, calculations)
 
-## WHat I learned
+## What I learned
 
 
 ## Future Improvements
