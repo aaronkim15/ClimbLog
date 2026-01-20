@@ -15,7 +15,7 @@ As a climber, I wanted a simple way to track sessions and understand progress wi
 ## Tech Stack 
 - HTML5
 - CSS3
-- Vanilla JavaScrit
+- Vanilla JavaScript
 - Browser localStorage for data persistence
 - No frameworks or libraries used
 
