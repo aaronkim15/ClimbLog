@@ -1,7 +1,6 @@
 /* root variables */
 :root{
     --main-background: #A1EDDB;
-
     --main-text: #000000;
     --white: #ffffff;
     --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,18 +18,65 @@ body {
     background-color: var(--main-background);
     font-family: var(--font);
     color: var(--main-text);
-    display:flex;
 }
 
-/* heading 1 orientation */
-h1{
-    position: relative;
-    top: 30px;
+/* format the 1-line description*/
+.header-format{
+    position:relative;
+    top: 40px;
     left: 20px;
+    margin:10px;
 }
 
-h3{
-    position: relative;
-    top: 80px;
-    right: 100px;
+/* the enter a climb text*/ 
+#instruction{
+    position:relative;
+    top:75px;
+    left:40px;
 }
+
+/* format the main forms on the webpage */
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* organize and structure the inputs*/
+.inputs{
+    margin: 100px 0px 0px 120px;
+    display:flex;
+    gap: 80px;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vh;
+    align-items: flex-start;
+}
+
+/* format the output values*/
+.output{
+    margin: 50px 0px 0px 40px;
+    height: 100vh;
+    width: 50vh;
+}
+
+/* difficulty element sizing */
+section input[type="text"]{
+    width: 80px;
+} 
+
+/* number of attempts element sizing */
+section input[type="number"]{
+    width: 200px;
+} 
+
+/* difficulty element sizing */
+section textarea{
+    max-height: 400px;
+    max-width: 400px;
+} 
+
+/* un-order list properties */
+ul{
+    list-style-type: none;
+}
+

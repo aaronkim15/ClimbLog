@@ -9,29 +9,43 @@
     </head>
 
     <body>
-        <h1>ClimbLog</h1>
-        <h3>Track Climbs and Sessions. See Progress.</h3>
+        <header>
+            <h1 class="header-format">ClimbLog</h1>
+            <h2 class="header-format">Track Climbs and Sessions. See Progress.</h2>
+    
+            <h3 id="instruction">Enter a Climb:</h3>
+        </header>
 
-        <div>
-            <input type="date">
-        
-            <select>
-                <option value="bouldering">Bouldering</option>
-                <option value="lead">Lead</option>
-                <option value="top rope">Top Rope</option>
-            </select>
-
-            <input type="text" placeholder="V5 or 5.11a">
-
-            <input type="number" min="1" placeholder="Enter the number of attempts">
-
-            <select>
-                <option value="sent">Sent</option>
-                <option value="project">Project</option>
-            </select>
-
-            <textarea rows="3" placeholder="Beta, how did the climb feel? any improvements?"></textarea>
-        </div>
+        <main>
+            <section class="inputs" class="container">
+                <input type="date" class="">
+            
+                <select>
+                    <option value="bouldering">Bouldering</option>
+                    <option value="lead">Lead</option>
+                    <option value="top rope">Top Rope</option>
+                </select>
+    
+                <input type="text" placeholder="V5 or 5.11a">
+    
+                <input type="number" min="1" placeholder="Enter the number of attempts" class="attempts">
+    
+                <select>
+                    <option value="sent">Sent</option>
+                    <option value="project">Project</option>
+                </select>
+    
+                <textarea rows="3" placeholder="Beta, how did the climb feel? any improvements?"></textarea>
+    
+                <button>Add Session</button>
+            </section>
+    
+            <section class="output">
+                <ul>
+                    <li>Hello</li>
+                </ul>
+            </section>    
+        </main>
         
     </body>
 </html>
