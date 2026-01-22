@@ -25,11 +25,7 @@ As a climber, I wanted a simple way to track sessions and understand progress wi
 /
 ├── index.html
 ├── styles.css
-├── js/
-│   ├── state.js      # Manages session data and persistence
-│   ├── render.js    # Handles DOM updates and UI rendering
-│   ├── handlers.js  # User interactions and event listeners
-│   └── utils.js     # Helper functions (dates, grades, calculations)
+├── script.js
 ```
 ## What I learned
 
